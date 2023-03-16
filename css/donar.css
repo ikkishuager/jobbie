@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    margin: 50px auto;
+    text-align: center;
+    width: 800px;
+    color: orange;
+}
+
+header{
+    font-family: 'times new roman';
+    font-style: italic;
+    color: orange;
+}
+
+ 
+label {
+    width: 150px;
+    display: inline-block;
+    text-align: left;
+    font-size: 1.5rem;
+    font-family: 'Lato';
+}
+ 
+input {
+    border: 2px solid #ccc;
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-family: 'Lato';
+    padding: 10px;
+}
+ 
+form {
+    margin: 25px auto;
+    padding: 20px;
+    border: 5px solid #ccc;
+    width: 500px;
+    background: #eee;
+}
+ 
+div.form-element {
+    margin: 20px 0;
+}
+ 
+.button {
+    padding: 10px;
+    font-size: 1.5rem;
+    font-family: 'Lato';
+    font-weight: 100;
+    background: orange;
+    color: white;
+    border: none;
+    
+}
+ 
+
+.label1{
+    position: relative;
+    top:-67px;
+    
+}
+h1{
+    font-family: lato;
+}
+
+h2{
+    font-family: lato;
+}

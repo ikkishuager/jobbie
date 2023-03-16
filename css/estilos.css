@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    margin: 50px auto;
+    text-align: center;
+    width: 800px;
+    color: orange;
+}
+
+header{
+    font-family: 'times new roman';
+    font-style: italic;
+    color: orange;
+}
+h1 {
+    font-family: 'lato';
+    font-size: 1.3rem;
+    color: orangered;
+
+    
+}
+ 
+label {
+    width: 150px;
+    display: inline-block;
+    text-align: left;
+    font-size: 1.5rem;
+    font-family: 'Lato';
+}
+ 
+input {
+    border: 2px solid #ccc;
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-family: 'Lato';
+    padding: 10px;
+}
+ 
+form {
+    margin: 25px auto;
+    padding: 20px;
+    border: 5px solid #ccc;
+    width: 500px;
+    background: #eee;
+}
+ 
+div.form-element {
+    margin: 20px 0;
+}
+ 
+button {
+    padding: 10px;
+    font-size: 1.5rem;
+    font-family: 'Lato';
+    font-weight: 100;
+    background: orange;
+    color: white;
+    border: none;
+    
+}
+ 
+p.success,
+p.error {
+    color: orange;
+    font-family: lato;
+    background: white;
+    display: inline-block;
+    padding: 2px 10px;
+}
+ 
+p.error {
+    background: red;
+}

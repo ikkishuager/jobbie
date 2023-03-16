@@ -1,0 +1,321 @@
+form
+
+
+a{
+    float: right;
+    
+}
+img{
+    float: left;
+}
+
+
+
+body{
+	font-family: arial, helvetica;
+	background: -webkit-linear-gradient(left, white, rgb(255, 207, 118));
+
+}
+
+.menu{
+	list-style: none;
+	padding: 0;
+	background: -webkit-linear-gradient(left, white, ivory);
+position: absolute;
+	width: 90%;
+	max-width: 750px;
+	margin: 50px;
+    border-width: 2px;
+    border-style: solid;
+    float: left;
+	left: 40px;
+    
+    
+}
+
+.menu li a{
+	text-decoration: none;
+	color: #000000;
+	padding: 20px;
+	display: block;
+	
+    
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+    
+    
+}
+
+.menu li a:hover{
+	background: #ef8354;
+}
+
+
+.carry{
+	position: absolute;
+	top: 40px;
+	left: 900px;
+	}
+	
+.usericon{
+		position: absolute;
+		top: 70px;
+		left: 1300px;
+		}
+.form_search{
+	position: absolute;
+	left: 1200px;
+}
+.logout{
+	position: absolute;
+		top: 50px;
+		left: 1300px;
+}
+
+
+div#Creadores{
+	position: absolute;
+	margin: auto;
+	margin-top: 150px;
+	width: 600px;
+	height: 900px;
+	background-color: white;
+	border: orange 5px dotted;
+	border-radius: 35px;
+}
+
+div#Recomienda{
+	position: absolute;
+	margin: auto;
+	left: 680px;
+	margin-top: 150px;
+	width: 600px;
+	height: 900px;
+	background-color: white;
+	border: orange 5px dotted;
+border-radius: 35px;
+}
+
+.center{
+		text-align: center;
+	position: relative;top: 4.5%;
+
+}
+.center button{
+	
+background-color: orange;
+border: none;
+color: white;
+padding: 15px 32px;
+
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+position: static;
+
+
+}
+
+.cuadromenui{
+top: 18%;
+	color: white;
+    position: absolute;
+ margin-left: 5%;
+    border: 5px solid;
+    width: 320px;
+    height: 700px;
+    background: orange;
+	border-radius: 30px;
+
+}
+.usericon2{
+	left: 12%;
+	position: relative;
+margin-top: 15%;
+
+
+	
+	height: 250px;
+	width: 250px;
+	
+}
+
+.diorama{
+	left: 12%;
+	position: relative;
+margin-top: 15%;
+	height: 250px;
+	width: 250px;
+}
+
+div#informacionproducto{
+	font-size: 15px;
+	position: relative;
+	margin-left: 60%;
+	margin-top: 35%;
+	font-family: lato;
+
+}
+
+/*css para TIENDA*/
+.tiendatabla{
+position: absolute;
+background-color: orange;
+margin-left: 3%;
+height: 1150px;
+width: 1200px;
+top: 20%;
+border-radius: 5%;
+
+}
+.categoriastabla{
+position: absolute;
+background-color: white;
+margin-left: 3%;
+height: 700px;
+width: 300px;
+top: 4%;
+}
+.productostabla{
+position: absolute;
+background-color: ivory;
+margin-left: 30%;
+height: 1000px;
+width: 800px;
+top: 4%;
+
+}
+.form_search2{
+	position: absolute;
+	margin-left: 48%;
+	margin-top: 8%;
+}
+.categoriastabla h1 {
+	text-align: center;
+	font-family: lato;
+}
+.region{
+	font-family: lato;
+	margin-left: 14px;
+}
+.categoria{
+	font-family: lato;
+	margin-left: 14px;
+}
+.orden{
+	font-family: lato;
+	margin-left: 35%;
+}
+
+.rango{
+	margin-left: 25%;
+}
+.publicon{
+	position: absolute;
+	top: 200px;
+	left: 1200px;
+
+}
+
+.imagenesbd{
+	height: 130px;
+	width: 130px;
+	border-radius: 25%;
+ ;
+}
+.inforproductost{
+
+	font-family: lato;
+	text-align: center;
+	font-size: 30px;
+	border-color:black;
+	border-width: 25px;
+	border-style: dotted;
+}
+.titulopublicacion{
+	border-color: orange;
+	border-width: 5px;
+	border-style: dotted;
+}
+.valorpublicacion{
+	border-color: orange;
+	border-width: 5px;
+	border-style: dotted;
+
+}
+.categoriapublicacion{
+	border-color: orange;
+	border-width: 5px;
+	border-style: dotted;
+}
+.nombreproducto12{
+	font-size: 24px;
+	text-align: center;
+	
+
+}
+.categoriaproducto12{
+
+	font-size: 24px;
+	text-align: center;
+}
+.valorproducto12{
+
+	font-size: 24px;
+	text-align: center;
+	color: #ef8354;
+	position: relative;
+	right: -100px;
+}
+.botoncarrocompra{
+	position: relative;
+	top: 30px;
+left: -40px;
+    font-size:20px;
+    font-family: 'Lato';
+    font-weight: 100;
+    background: orange;
+    color: white;
+    border: none;
+	
+}
+
+.buttonS{
+	position: relative;
+	top: 35px;
+	left: 120px;
+	background-color: orange;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+
+	
+
+}
+.container-fluid{
+	position: absolute;
+	left:350px ;
+	font-size: 15px;
+
+
+
+}
+.container{
+	position: absolute;
+	top: 170px;
+	left: 175px;
+	color: #ef8354;
+
+
+}

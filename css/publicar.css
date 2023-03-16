@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    margin: 50px auto;
+    text-align: center;
+    width: 800px;
+    color: orange;
+}
+
+header{
+    font-family: 'times new roman';
+    font-style: italic;
+    color: orange;
+}
+
+ 
+label {
+    
+    width: 150px;
+    display: inline-block;
+left: 5px;
+    font-size: 1.5rem;
+    font-family: 'Lato';
+    left: -40px;
+    position: relative;
+    text-align: center;
+    
+}
+ 
+input {
+    border: 2px solid #ccc;
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-family: 'Lato';
+  
+}
+ 
+form {
+    margin: 25px auto;
+    padding: 20px;
+    border: 5px solid #ccc;
+    width: 500px;
+    background: #eee;
+}
+
+
+ 
+.btn{
+    padding: 10px;
+    font-size: 1.5rem;
+    font-family: 'Lato';
+    font-weight: 100;
+    background: orange;
+    color: white;
+    border: none;
+    
+}
+h1{
+    font-family: lato;
+}
+ .imagenpublicar{
+     font-size: 12px;
+ }
+.labeldesc{
+    position: relative;
+    top: -35px;
+}
+.categoria{
+    left: -100px;
+}
